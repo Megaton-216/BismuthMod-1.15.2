@@ -30,6 +30,8 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.DUNITE.get(), new Item.Properties().group(Bismuth.TAB_1)));
     public static final RegistryObject<Item> FLOOR_BASALT_ITEM = ITEMS.register("floor_basalt",
             () -> new BlockItem(ModBlocks.FLOOR_BASALT.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> YELLOW_GRANITE_ITEM = ITEMS.register("yellow_granite",
+            () -> new BlockItem(ModBlocks.YELLOW_GRANITE.get(), new Item.Properties().group(Bismuth.TAB_1)));
     public static final RegistryObject<Item> POLISHED_FLOOR_BASALT_ITEM = ITEMS.register("polished_floor_basalt",
             () -> new BlockItem(ModBlocks.POLISHED_FLOOR_BASALT.get(), new Item.Properties().group(Bismuth.TAB_1)));
     public static final RegistryObject<Item> POLISHED_ORANGE_GRANITE_ITEM = ITEMS.register("polished_orange_granite",

@@ -1,0 +1,16 @@
+{
+  "type": "bismuth:example",
+  "output": {
+    "item": "minecraft:obsidian"
+  },
+
+  "input_d": {
+    "item": "minecraft:coal"
+  },
+  "input_e": {
+    "item": "minecraft:iron_ingot"
+  },
+  "input_f": {
+    "item": "minecraft:coal"
+  }
+}

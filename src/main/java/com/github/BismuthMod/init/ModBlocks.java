@@ -18,6 +18,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> GABBRO = BLOCKS.register("gabbro", Gabbro::new);
     public static final RegistryObject<Block> DUNITE = BLOCKS.register("dunite", Dunite::new);
     public static final RegistryObject<Block> FLOOR_BASALT = BLOCKS.register("floor_basalt", FloorBasalt::new);
+    public static final RegistryObject<Block> YELLOW_GRANITE = BLOCKS.register("yellow_granite", YellowGranite::new);
     public static final RegistryObject<Block> POLISHED_FLOOR_BASALT = BLOCKS.register("polished_floor_basalt", PolishedFloorBasalt::new);
     public static final RegistryObject<Block> POLISHED_ORANGE_GRANITE = BLOCKS.register("polished_orange_granite", PolishedOrangeGranite::new);
     //public static final RegistryObject<Block> POLISHED_BEIGE_GRANITE = BLOCKS.register("polished_beige_granite", PolishedBeigeGranite::new);

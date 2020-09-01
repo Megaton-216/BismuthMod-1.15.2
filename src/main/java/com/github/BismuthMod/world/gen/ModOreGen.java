@@ -22,11 +22,20 @@ public class ModOreGen {
     public static void generateOres(FMLLoadCompleteEvent event) {
         for (Biome biome : ForgeRegistries.BIOMES) {
             //Overworld Generation
-            genOre(biome, 15, 24, 5, 69, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.COPPER_ORE.get().getDefaultState(), 10);
             genStoneVariants(biome, 20, 4, 5, 40, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.GABBRO.get().getDefaultState(), 18);
             genStoneVariants(biome, 20, 4, 5, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.DUNITE.get().getDefaultState(), 24);
             genStoneVariants(biome, 20, 30, 5, 40, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.FLOOR_BASALT.get().getDefaultState(), 50);
+            genOre(biome, 15, 24, 5, 69, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.COPPER_ORE.get().getDefaultState(), 10);
+            genOre(biome, 10, 20, 0, 80, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.YELLOW_GRANITE.get().getDefaultState(), 33);
+
         }
+    }
+
+    private static void genStoneVariants(Biome biome, int count, int bottomOffset, int topOffset, int max, OreFeatureConfig.FillerBlockType filler, BlockState defaultBlockstate, int size) {
+        CountRangeConfig range = new CountRangeConfig(count, bottomOffset, topOffset, max);
+        OreFeatureConfig feature = new OreFeatureConfig(filler, defaultBlockstate, size);
+        ConfiguredPlacement config = Placement.COUNT_RANGE.configure(range);
+        biome.addFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Feature.ORE.withConfiguration(feature).withPlacement(config));
     }
 
     private static void genOre(Biome biome, int count, int bottomOffset, int topOffset, int max, OreFeatureConfig.FillerBlockType filler, BlockState defaultBlockstate, int size) {
@@ -36,10 +45,4 @@ public class ModOreGen {
         biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE.withConfiguration(feature).withPlacement(config));
     }
 
-    private static void genStoneVariants(Biome biome, int count, int bottomOffset, int topOffset, int max, OreFeatureConfig.FillerBlockType filler, BlockState defaultBlockstate, int size) {
-        CountRangeConfig range = new CountRangeConfig(count, bottomOffset, topOffset, max);
-        OreFeatureConfig feature = new OreFeatureConfig(filler, defaultBlockstate, size);
-        ConfiguredPlacement config = Placement.COUNT_RANGE.configure(range);
-        biome.addFeature(GenerationStage.Decoration.UNDERGROUND_DECORATION, Feature.ORE.withConfiguration(feature).withPlacement(config));
-    }
 }
