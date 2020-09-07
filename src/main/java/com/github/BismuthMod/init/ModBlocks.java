@@ -34,4 +34,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> POLISHED_BLACK_GRANITE = BLOCKS.register("polished_black_granite", PolishedBlackGranite::new);
     public static final RegistryObject<Block> POLISHED_CYAN_GRANITE = BLOCKS.register("polished_cyan_granite", PolishedCyanGranite::new);
     public static final RegistryObject<Block> POLISHED_MAGENTA_GRANITE = BLOCKS.register("polished_magenta_granite", PolishedMagentaGranite::new);
+    public static final RegistryObject<Block> LIMESTONED = BLOCKS.register("limestoned", LimestoneD::new);
+    public static final RegistryObject<Block> LIMESTONEL = BLOCKS.register("limestonel", LimestoneL::new);
+    public static final RegistryObject<Block> LIMESTONEB = BLOCKS.register("limestoneb", LimestoneB::new);
 }

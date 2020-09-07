@@ -62,6 +62,12 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.POLISHED_CYAN_GRANITE.get(), new Item.Properties().group(Bismuth.TAB_1)));
     public static final RegistryObject<Item> POLISHED_MAGENTA_GRANITE_ITEM = ITEMS.register("polished_magenta_granite",
             () -> new BlockItem(ModBlocks.POLISHED_MAGENTA_GRANITE.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> LIMESTONED = ITEMS.register("limestoned",
+            () -> new BlockItem(ModBlocks.LIMESTONED.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> LIMESTONEL = ITEMS.register("limestonel",
+            () -> new BlockItem(ModBlocks.LIMESTONEL.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> LIMESTONEB = ITEMS.register("limestoneb",
+            () -> new BlockItem(ModBlocks.LIMESTONEB.get(), new Item.Properties().group(Bismuth.TAB_1)));
 
     //Tools
     public static final RegistryObject<ShovelItem> COPPER_SHOVEL = ITEMS.register("copper_shovel",

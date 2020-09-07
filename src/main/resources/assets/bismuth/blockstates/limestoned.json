@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+        { "model": "bismuth:block/limestoned" },
+        { "model": "bismuth:block/limestoned_mirrored" },
+        { "model": "bismuth:block/limestoned", "y": 180 },
+        { "model": "bismuth:block/limestoned_mirrored", "y": 180 }
+      ]
+  }
+}
