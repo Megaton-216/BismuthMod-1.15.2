@@ -37,4 +37,5 @@ public class ModBlocks {
     public static final RegistryObject<Block> LIMESTONED = BLOCKS.register("limestoned", LimestoneD::new);
     public static final RegistryObject<Block> LIMESTONEL = BLOCKS.register("limestonel", LimestoneL::new);
     public static final RegistryObject<Block> LIMESTONEB = BLOCKS.register("limestoneb", LimestoneB::new);
+    public static final RegistryObject<Block> LUNAR_REGOLITH = BLOCKS.register("lunar_regolith", LunarRegolith::new);
 }

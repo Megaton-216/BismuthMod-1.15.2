@@ -68,6 +68,8 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.LIMESTONEL.get(), new Item.Properties().group(Bismuth.TAB_1)));
     public static final RegistryObject<Item> LIMESTONEB = ITEMS.register("limestoneb",
             () -> new BlockItem(ModBlocks.LIMESTONEB.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> LUNAR_REGOLITH = ITEMS.register("lunar_regolith",
+            () -> new BlockItem(ModBlocks.LUNAR_REGOLITH.get(), new Item.Properties().group(Bismuth.TAB_1)));
 
     //Tools
     public static final RegistryObject<ShovelItem> COPPER_SHOVEL = ITEMS.register("copper_shovel",

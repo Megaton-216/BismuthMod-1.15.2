@@ -18,8 +18,8 @@ public class ModBiomes {
     public static final DeferredRegister<Biome> BIOMES = new DeferredRegister<>(ForgeRegistries.BIOMES, Bismuth.MOD_ID);
 
     public static final RegistryObject<Biome> TEMP_MOON = BIOMES.register("temp_moon", () -> new TempMoon(
-            new Biome.Builder().precipitation(Biome.RainType.NONE).scale(1.1f).temperature(0.9f).waterColor(16724639).waterFogColor(16762304).surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(ModBlocks.LIMESTONEL.get().getDefaultState(), ModBlocks.LIMESTONEB.get().getDefaultState(), ModBlocks.FLOOR_BASALT.get().getDefaultState()))
-            .category(Biome.Category.DESERT).downfall(0.4f).depth(0.1f).parent(null)));
+            new Biome.Builder().precipitation(Biome.RainType.NONE).scale(1.1f).temperature(0.1f).waterColor(16724639).waterFogColor(16762304).surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(ModBlocks.LUNAR_REGOLITH.get().getDefaultState(), ModBlocks.LUNAR_REGOLITH.get().getDefaultState(), ModBlocks.FLOOR_BASALT.get().getDefaultState()))
+            .category(Biome.Category.DESERT).downfall(0.1f).depth(0.1f).parent(null)));
 
 
     public static void registerBiomes() {

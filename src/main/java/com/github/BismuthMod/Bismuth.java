@@ -5,6 +5,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
@@ -33,6 +34,8 @@ public class Bismuth
     public static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "bismuth";
 
+    public static final ResourceLocation TEMP_DIM_TYPE = new ResourceLocation(MOD_ID, "bismuth");
+
     public Bismuth() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
@@ -44,6 +47,7 @@ public class Bismuth
         ModTileEntityTypes.TILE_ENTITY_TYPES.register(FMLJavaModLoadingContext.get().getModEventBus());
         ModContainerTypes.CONTAINER_TYPES.register(FMLJavaModLoadingContext.get().getModEventBus());
         ModBiomes.BIOMES.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ModDimensions.MOD_DIMENSIONS.register(FMLJavaModLoadingContext.get().getModEventBus());
         MinecraftForge.EVENT_BUS.register(this);
     }
 

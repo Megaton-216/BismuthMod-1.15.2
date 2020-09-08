@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+        { "model": "bismuth:block/lunar_regolith_l" },
+        { "model": "bismuth:block/lunar_regolith_d" },
+        { "model": "bismuth:block/lunar_regolith_l_mirrored" },
+        { "model": "bismuth:block/lunar_regolith_d_mirrored" },
+        { "model": "bismuth:block/lunar_regolith_l", "y": 180 },
+        { "model": "bismuth:block/lunar_regolith_l_mirrored", "y": 180 },
+        { "model": "bismuth:block/lunar_regolith_d", "y": 180 },
+        { "model": "bismuth:block/lunar_regolith_d_mirrored", "y": 180 }
+      ]
+  }
+}
