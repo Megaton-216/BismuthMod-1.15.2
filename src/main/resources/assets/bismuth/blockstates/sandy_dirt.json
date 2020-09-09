@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+        { "model": "bismuth:block/sandy_dirt" },
+        { "model": "bismuth:block/sandy_dirt_mirrored" },
+        { "model": "bismuth:block/sandy_dirt", "y": 180 },
+        { "model": "bismuth:block/sandy_dirt_mirrored", "y": 180 }
+      ]
+  }
+}

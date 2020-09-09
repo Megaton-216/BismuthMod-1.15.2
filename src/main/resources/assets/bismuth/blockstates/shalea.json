@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+        { "model": "bismuth:block/shalea" },
+        { "model": "bismuth:block/shalea_mirrored" },
+        { "model": "bismuth:block/shalea", "y": 180 },
+        { "model": "bismuth:block/shalea_mirrored", "y": 180 }
+      ]
+  }
+}

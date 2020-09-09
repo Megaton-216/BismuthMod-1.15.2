@@ -62,14 +62,34 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.POLISHED_CYAN_GRANITE.get(), new Item.Properties().group(Bismuth.TAB_1)));
     public static final RegistryObject<Item> POLISHED_MAGENTA_GRANITE_ITEM = ITEMS.register("polished_magenta_granite",
             () -> new BlockItem(ModBlocks.POLISHED_MAGENTA_GRANITE.get(), new Item.Properties().group(Bismuth.TAB_1)));
-    public static final RegistryObject<Item> LIMESTONED = ITEMS.register("limestoned",
+    public static final RegistryObject<Item> LIMESTONED_ITEM = ITEMS.register("limestoned",
             () -> new BlockItem(ModBlocks.LIMESTONED.get(), new Item.Properties().group(Bismuth.TAB_1)));
-    public static final RegistryObject<Item> LIMESTONEL = ITEMS.register("limestonel",
+    public static final RegistryObject<Item> LIMESTONEL_ITEM = ITEMS.register("limestonel",
             () -> new BlockItem(ModBlocks.LIMESTONEL.get(), new Item.Properties().group(Bismuth.TAB_1)));
-    public static final RegistryObject<Item> LIMESTONEB = ITEMS.register("limestoneb",
+    public static final RegistryObject<Item> LIMESTONEB_ITEM = ITEMS.register("limestoneb",
             () -> new BlockItem(ModBlocks.LIMESTONEB.get(), new Item.Properties().group(Bismuth.TAB_1)));
-    public static final RegistryObject<Item> LUNAR_REGOLITH = ITEMS.register("lunar_regolith",
+    public static final RegistryObject<Item> LUNAR_REGOLITH_ITEM = ITEMS.register("lunar_regolith",
             () -> new BlockItem(ModBlocks.LUNAR_REGOLITH.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> NORITE_ITEM = ITEMS.register("norite",
+            () -> new BlockItem(ModBlocks.NORITE.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> PLATINUM_ORE_ITEM = ITEMS.register("platinum_ore",
+            () -> new BlockItem(ModBlocks.PLATINUM_ORE.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> LIMESTONEK_ITEM = ITEMS.register("limestonek",
+            () -> new BlockItem(ModBlocks.LIMESTONEK.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> LIMESTONEM_ITEM = ITEMS.register("limestonem",
+            () -> new BlockItem(ModBlocks.LIMESTONEM.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> LIMESTONER_ITEM = ITEMS.register("limestoner",
+            () -> new BlockItem(ModBlocks.LIMESTONER.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> LIMESTONET_ITEM = ITEMS.register("limestonet",
+            () -> new BlockItem(ModBlocks.LIMESTONET.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> SCHIST_ITEM = ITEMS.register("schist",
+            () -> new BlockItem(ModBlocks.SCHIST.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> SHALEH_ITEM = ITEMS.register("shaleh",
+            () -> new BlockItem(ModBlocks.SHALEH.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> SHALEA_ITEM = ITEMS.register("shalea",
+            () -> new BlockItem(ModBlocks.SHALEA.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> SANDY_DIRT_ITEM = ITEMS.register("sandy_dirt",
+            () -> new BlockItem(ModBlocks.SANDY_DIRT.get(), new Item.Properties().group(Bismuth.TAB_1)));
 
     //Tools
     public static final RegistryObject<ShovelItem> COPPER_SHOVEL = ITEMS.register("copper_shovel",

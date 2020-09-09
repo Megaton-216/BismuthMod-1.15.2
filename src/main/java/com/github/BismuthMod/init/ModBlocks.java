@@ -38,4 +38,14 @@ public class ModBlocks {
     public static final RegistryObject<Block> LIMESTONEL = BLOCKS.register("limestonel", LimestoneL::new);
     public static final RegistryObject<Block> LIMESTONEB = BLOCKS.register("limestoneb", LimestoneB::new);
     public static final RegistryObject<Block> LUNAR_REGOLITH = BLOCKS.register("lunar_regolith", LunarRegolith::new);
+    public static final RegistryObject<Block> NORITE = BLOCKS.register("norite", Norite::new);
+    public static final RegistryObject<Block> PLATINUM_ORE = BLOCKS.register("platinum_ore", PlatinumOre::new);
+    public static final RegistryObject<Block> LIMESTONEK = BLOCKS.register("limestonek", LimestoneK::new);
+    public static final RegistryObject<Block> LIMESTONEM = BLOCKS.register("limestonem", LimestoneM::new);
+    public static final RegistryObject<Block> LIMESTONER = BLOCKS.register("limestoner", LimestoneR::new);
+    public static final RegistryObject<Block> LIMESTONET = BLOCKS.register("limestonet", LimestoneT::new);
+    public static final RegistryObject<Block> SCHIST = BLOCKS.register("schist", Schist::new);
+    public static final RegistryObject<Block> SHALEH = BLOCKS.register("shaleh", ShaleH::new);
+    public static final RegistryObject<Block> SHALEA = BLOCKS.register("shalea", ShaleA::new);
+    public static final RegistryObject<Block> SANDY_DIRT = BLOCKS.register("sandy_dirt", SandyDirt::new);
 }

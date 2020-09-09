@@ -22,11 +22,14 @@ public class ModOreGen {
     public static void generateOres(FMLLoadCompleteEvent event) {
         for (Biome biome : ForgeRegistries.BIOMES) {
             //Overworld Generation
-            genStoneVariants(biome, 20, 4, 5, 40, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.GABBRO.get().getDefaultState(), 18);
+            genStoneVariants(biome, 20, 4, 0, 45, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.GABBRO.get().getDefaultState(), 18);
             genStoneVariants(biome, 20, 4, 5, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.DUNITE.get().getDefaultState(), 24);
             genStoneVariants(biome, 20, 30, 5, 40, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.FLOOR_BASALT.get().getDefaultState(), 50);
+            genStoneVariants(biome, 20, 4, 0, 45, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.NORITE.get().getDefaultState(), 18);
+
             genOre(biome, 15, 24, 5, 69, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.COPPER_ORE.get().getDefaultState(), 10);
             genOre(biome, 10, 20, 0, 80, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.YELLOW_GRANITE.get().getDefaultState(), 33);
+            genOre(biome, 15, 20, 0, 45, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.PLATINUM_ORE.get().getDefaultState(), 10);
 
         }
     }
