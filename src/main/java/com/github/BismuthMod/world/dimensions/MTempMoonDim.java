@@ -1,11 +1,9 @@
 package com.github.BismuthMod.world.dimensions;
 
 import com.mojang.blaze3d.matrix.MatrixStack;
-import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.*;
 import net.minecraft.client.renderer.texture.TextureManager;
-import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.ChunkPos;
@@ -32,56 +30,8 @@ public class MTempMoonDim extends Dimension {
     private TextureManager textureManager;
     private Minecraft mc;
 
-    public void WorldRenderer(Minecraft mcIn) {
-        this.mc = mcIn;
-        this.textureManager = mcIn.getTextureManager();
-    }
+    private void setSkyRenderer(MatrixStack matrixStackIn) {
 
-    private void renderSkyMoon(MatrixStack matrixStackIn) {
-        RenderSystem.disableAlphaTest();
-        RenderSystem.enableBlend();
-        RenderSystem.defaultBlendFunc();
-        RenderSystem.depthMask(false);
-        this.textureManager.bindTexture(MOON_SKY_TEXTURES);
-        Tessellator tessellator = Tessellator.getInstance();
-        BufferBuilder bufferbuilder = tessellator.getBuffer();
-
-        for(int i = 0; i < 6; ++i) {
-            matrixStackIn.push();
-            if (i == 1) {
-                matrixStackIn.rotate(Vector3f.XP.rotationDegrees(90.0F));
-            }
-
-            if (i == 2) {
-                matrixStackIn.rotate(Vector3f.XP.rotationDegrees(-90.0F));
-            }
-
-            if (i == 3) {
-                matrixStackIn.rotate(Vector3f.XP.rotationDegrees(180.0F));
-            }
-
-            if (i == 4) {
-                matrixStackIn.rotate(Vector3f.ZP.rotationDegrees(90.0F));
-            }
-
-            if (i == 5) {
-                matrixStackIn.rotate(Vector3f.ZP.rotationDegrees(-90.0F));
-            }
-
-            Matrix4f matrix4f = matrixStackIn.getLast().getMatrix();
-            bufferbuilder.begin(7, DefaultVertexFormats.POSITION_TEX_COLOR);
-            bufferbuilder.pos(matrix4f, -100.0F, -100.0F, -100.0F).tex(0.0F, 0.0F).color(40, 40, 40, 255).endVertex();
-            bufferbuilder.pos(matrix4f, -100.0F, -100.0F, 100.0F).tex(0.0F, 16.0F).color(40, 40, 40, 255).endVertex();
-            bufferbuilder.pos(matrix4f, 100.0F, -100.0F, 100.0F).tex(16.0F, 16.0F).color(40, 40, 40, 255).endVertex();
-            bufferbuilder.pos(matrix4f, 100.0F, -100.0F, -100.0F).tex(16.0F, 0.0F).color(40, 40, 40, 255).endVertex();
-            tessellator.draw();
-            matrixStackIn.pop();
-        }
-
-        RenderSystem.depthMask(true);
-        RenderSystem.enableTexture();
-        RenderSystem.disableBlend();
-        RenderSystem.enableAlphaTest();
     }
 
     @Override

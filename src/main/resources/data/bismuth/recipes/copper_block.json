@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "ccc",
+    "ccc"
+  ],
+  "key": {
+    "c": {
+      "item": "bismuth:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "bismuth:copper_block",
+    "count": 1
+  }
+}

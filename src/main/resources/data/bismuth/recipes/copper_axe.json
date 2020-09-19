@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cc ",
+    "cs ",
+    " s "
+  ],
+  "key": {
+    "c": {
+      "item": "bismuth:copper_ingot"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "bismuth:copper_axe",
+    "count": 1
+  }
+}

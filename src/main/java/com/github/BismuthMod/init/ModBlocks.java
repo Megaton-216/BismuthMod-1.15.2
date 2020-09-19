@@ -48,4 +48,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> SHALEH = BLOCKS.register("shaleh", ShaleH::new);
     public static final RegistryObject<Block> SHALEA = BLOCKS.register("shalea", ShaleA::new);
     public static final RegistryObject<Block> SANDY_DIRT = BLOCKS.register("sandy_dirt", SandyDirt::new);
+    public static final RegistryObject<Block> CLAYR = BLOCKS.register("clayr", ClayR::new);
+    public static final RegistryObject<Block> DIRTA = BLOCKS.register("dirta", DirtA::new);
+    public static final RegistryObject<Block> DIRTU = BLOCKS.register("dirtu", DirtU::new);
+    public static final RegistryObject<Block> LARGE_QUARTZ_CRYSTAL = BLOCKS.register("large_quartz_crystal", LargeQuartzCrystal::new);
+    public static final RegistryObject<Block> PLATINUM_BLOCK = BLOCKS.register("platinum_block", PlatinumBlock::new);
 }

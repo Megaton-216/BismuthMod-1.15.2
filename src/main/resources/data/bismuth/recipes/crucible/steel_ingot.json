@@ -1,16 +1,8 @@
 {
-  "type": "bismuth:example",
-  "output": {
-    "item": "minecraft:obsidian"
+  "type": "bismuth:crucible",
+  "ingredient": {
+    "input_d": "minecraft:coal",
+    "input_e": "minecraft:iron_ingot"
   },
-
-  "input_d": {
-    "item": "minecraft:coal"
-  },
-  "input_e": {
-    "item": "minecraft:iron_ingot"
-  },
-  "input_f": {
-    "item": "minecraft:coal"
-  }
+  "result": "minecraft:gold_ingot"
 }

@@ -16,6 +16,8 @@ public class ModItems {
     //Items
     public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot",
             () -> new Item(new Item.Properties().group(Bismuth.TAB_0)));
+    public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
+            () -> new Item(new Item.Properties().group(Bismuth.TAB_0)));
 
     //Block Items
     public static final RegistryObject<Item> COPPER_BLOCK_ITEM = ITEMS.register("copper_block",
@@ -90,6 +92,16 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.SHALEA.get(), new Item.Properties().group(Bismuth.TAB_1)));
     public static final RegistryObject<Item> SANDY_DIRT_ITEM = ITEMS.register("sandy_dirt",
             () -> new BlockItem(ModBlocks.SANDY_DIRT.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> CLAYR_ITEM = ITEMS.register("clayr",
+            () -> new BlockItem(ModBlocks.CLAYR.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> DIRTA_ITEM = ITEMS.register("dirta",
+            () -> new BlockItem(ModBlocks.DIRTA.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> DIRTU_ITEM = ITEMS.register("dirtu",
+            () -> new BlockItem(ModBlocks.DIRTU.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> LARGE_QUARTZ_CRYSTAL_ITEM = ITEMS.register("large_quartz_crystal",
+            () -> new BlockItem(ModBlocks.LARGE_QUARTZ_CRYSTAL.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    public static final RegistryObject<Item> PLATINUM_BLOCK_ITEM = ITEMS.register("platinum_block",
+            () -> new BlockItem(ModBlocks.PLATINUM_BLOCK.get(), new Item.Properties().group(Bismuth.TAB_1)));
 
     //Tools
     public static final RegistryObject<ShovelItem> COPPER_SHOVEL = ITEMS.register("copper_shovel",

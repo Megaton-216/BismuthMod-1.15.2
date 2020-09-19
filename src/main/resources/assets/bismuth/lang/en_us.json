@@ -1,5 +1,6 @@
 {
   "item.bismuth.copper_ingot": "Copper Ingot",
+  "item.bismuth.platinum_ingot": "Platinum Ingot",
   "item.bismuth.copper_shovel": "Copper Shovel",
   "item.bismuth.copper_pickaxe": "Copper Pickaxe",
   "item.bismuth.copper_axe": "Copper Axe",
@@ -48,6 +49,11 @@
   "block.bismuth.shaleh": "ShaleH",
   "block.bismuth.shalea": "ShaleA",
   "block.bismuth.sandy_dirt": "Sandy Dirt",
+  "block.bismuth.clayr": "ClayR",
+  "block.bismuth.dirta": "DirtA",
+  "block.bismuth.dirtu": "DirtU",
+  "block.bismuth.large_quartz_crystal": "Large Quartz Crystal",
+  "block.bismuth.platinum_block": "Block of Platinum",
   "block.bismuth.crucible": "Crucible",
   "container.bismuth.crucible": "Crucible",
   "entity.bismuth.capybara": "Capybara"

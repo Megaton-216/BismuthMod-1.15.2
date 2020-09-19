@@ -30,6 +30,7 @@ public class ModOreGen {
             genOre(biome, 15, 24, 5, 69, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.COPPER_ORE.get().getDefaultState(), 10);
             genOre(biome, 10, 20, 0, 80, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.YELLOW_GRANITE.get().getDefaultState(), 33);
             genOre(biome, 15, 20, 0, 45, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.PLATINUM_ORE.get().getDefaultState(), 10);
+            genOre(biome, 12, 60, 0, 63, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.CLAYR.get().getDefaultState(), 12);
 
         }
     }
