@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "bismuth:block/crucible" },
-    "facing=south": { "model": "bismuth:block/crucible", "y":  180},
-    "facing=west": { "model": "bismuth:block/crucible", "y":  270},
-    "facing=east": { "model": "bismuth:block/crucible", "y":  90}
-  }
-}

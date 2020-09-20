@@ -49,7 +49,7 @@ public class Bismuth
         // some preinit code
         //LOGGER.info("HELLO FROM PREINIT");
         //LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
-        removeVanillaOre();
+        //removeVanillaOre();
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) { }

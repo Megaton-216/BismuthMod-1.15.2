@@ -53,8 +53,5 @@
   "block.bismuth.dirta": "DirtA",
   "block.bismuth.dirtu": "DirtU",
   "block.bismuth.large_quartz_crystal": "Large Quartz Crystal",
-  "block.bismuth.platinum_block": "Block of Platinum",
-  "block.bismuth.crucible": "Crucible",
-  "container.bismuth.crucible": "Crucible",
-  "entity.bismuth.capybara": "Capybara"
+  "block.bismuth.platinum_block": "Block of Platinum"
 }

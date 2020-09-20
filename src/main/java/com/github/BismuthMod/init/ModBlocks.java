@@ -14,7 +14,7 @@ public class ModBlocks {
     // Blocks
     public static final RegistryObject<Block> COPPER_BLOCK = BLOCKS.register("copper_block", CopperBlock::new);
     public static final RegistryObject<Block> COPPER_ORE = BLOCKS.register("copper_ore", CopperOre::new);
-    public static final RegistryObject<Block> CRUCIBLE = BLOCKS.register("crucible", CrucibleBlock::new);
+    //public static final RegistryObject<Block> CRUCIBLE = BLOCKS.register("crucible", CrucibleBlock::new);
     public static final RegistryObject<Block> GABBRO = BLOCKS.register("gabbro", Gabbro::new);
     public static final RegistryObject<Block> DUNITE = BLOCKS.register("dunite", Dunite::new);
     public static final RegistryObject<Block> FLOOR_BASALT = BLOCKS.register("floor_basalt", FloorBasalt::new);

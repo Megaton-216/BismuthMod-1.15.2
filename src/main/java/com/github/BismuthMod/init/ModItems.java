@@ -24,8 +24,8 @@ public class ModItems {
             () -> new BlockItem(ModBlocks.COPPER_BLOCK.get(), new Item.Properties().group(Bismuth.TAB_1)));
     public static final RegistryObject<Item> COPPER_ORE_ITEM = ITEMS.register("copper_ore",
             () -> new BlockItem(ModBlocks.COPPER_ORE.get(), new Item.Properties().group(Bismuth.TAB_1)));
-    public static final RegistryObject<Item> CRUCIBLE_ITEM = ITEMS.register("crucible",
-            () -> new BlockItem(ModBlocks.CRUCIBLE.get(), new Item.Properties().group(Bismuth.TAB_1)));
+    //public static final RegistryObject<Item> CRUCIBLE_ITEM = ITEMS.register("crucible",
+            //() -> new BlockItem(ModBlocks.CRUCIBLE.get(), new Item.Properties().group(Bismuth.TAB_1)));
     public static final RegistryObject<Item> GABBRO_ITEM = ITEMS.register("gabbro",
             () -> new BlockItem(ModBlocks.GABBRO.get(), new Item.Properties().group(Bismuth.TAB_1)));
     public static final RegistryObject<Item> DUNITE_ITEM = ITEMS.register("dunite",
