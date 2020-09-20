@@ -1,13 +1,8 @@
 {
   "variants": {
-    "facing=north,lit=false": { "model": "bismuth:block/crucible" },
-    "facing=south,lit=false": { "model": "bismuth:block/crucible", "y":  180},
-    "facing=west,lit=false": { "model": "bismuth:block/crucible", "y":  270},
-    "facing=east,lit-false": { "model": "bismuth:block/crucible", "y":  90},
-
-    "facing=north,lit=true": { "model": "bismuth:block/lit_crucible" },
-    "facing=south,lit=true": { "model": "bismuth:block/lit_crucible", "y":  180},
-    "facing=west,lit=true": { "model": "bismuth:block/lit_crucible", "y":  270},
-    "facing=east,lit-true": { "model": "bismuth:block/lit_crucible", "y":  90}
+    "facing=north": { "model": "bismuth:block/crucible" },
+    "facing=south": { "model": "bismuth:block/crucible", "y":  180},
+    "facing=west": { "model": "bismuth:block/crucible", "y":  270},
+    "facing=east": { "model": "bismuth:block/crucible", "y":  90}
   }
 }
