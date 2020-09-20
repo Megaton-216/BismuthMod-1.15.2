@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "bismuth:limestoneb",
+    "bismuth:limestoned",
+    "bismuth:limestonek",
+    "bismuth:limestonel",
+    "bismuth:limestonem",
+    "bismuth:limestoner",
+    "bismuth:limestonet",
+    "minecraft:stone",
+    "minecraft:cobblestone"
+  ]
+}
