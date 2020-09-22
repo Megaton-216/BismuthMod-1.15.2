@@ -14,7 +14,7 @@ public class LargeQuartzCrystal extends GlassBlock {
 
     public LargeQuartzCrystal() {
         super(Properties.create(Material.ROCK)
-                .hardnessAndResistance(3.0f, 3.0f)
+                .hardnessAndResistance(4.5f, 6.0f)
                 .sound(SoundType.STONE)
                 .harvestLevel(2)
                 .harvestTool(ToolType.PICKAXE)

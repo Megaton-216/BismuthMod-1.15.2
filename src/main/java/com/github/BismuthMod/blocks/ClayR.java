@@ -8,11 +8,11 @@ import net.minecraftforge.common.ToolType;
 public class ClayR extends Block {
 
     public ClayR() {
-        super(Properties.create(Material.ROCK)
-                .hardnessAndResistance(3.0f, 3.0f)
-                .sound(SoundType.STONE)
-                .harvestLevel(2)
-                .harvestTool(ToolType.PICKAXE));
+        super(Properties.create(Material.CLAY)
+                .hardnessAndResistance(0.6f, 0.6f)
+                .sound(SoundType.GROUND)
+                .harvestLevel(0)
+                .harvestTool(ToolType.SHOVEL));
                 //.setRequiresTool());
     }
 }

@@ -2,8 +2,10 @@
   "replace": false,
   "values": [
     "bismuth:yellow_granite",
+    "bismuth:limestoneb",
     "bismuth:limestoned",
+    "bismuth:limestonek",
     "bismuth:limestonel",
-    "bismuth:limestoneb"
+    "bismuth:limestonet"
   ]
 }

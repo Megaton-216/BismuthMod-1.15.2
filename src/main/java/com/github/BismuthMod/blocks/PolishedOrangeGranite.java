@@ -9,9 +9,9 @@ public class PolishedOrangeGranite extends Block {
 
     public PolishedOrangeGranite() {
         super(Properties.create(Material.ROCK)
-                .hardnessAndResistance(3.0f, 3.0f)
+                .hardnessAndResistance(1.5f, 6.0f)
                 .sound(SoundType.STONE)
-                .harvestLevel(2)
+                .harvestLevel(1)
                 .harvestTool(ToolType.PICKAXE));
                 //.setRequiresTool());
     }

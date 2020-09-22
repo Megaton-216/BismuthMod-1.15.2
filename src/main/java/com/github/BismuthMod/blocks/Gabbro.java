@@ -9,7 +9,7 @@ public class Gabbro extends Block {
 
     public Gabbro() {
         super(Properties.create(Material.ROCK)
-                .hardnessAndResistance(3.0f, 3.0f)
+                .hardnessAndResistance(2.0f, 6.0f)
                 .sound(SoundType.STONE)
                 .harvestLevel(2)
                 .harvestTool(ToolType.PICKAXE));

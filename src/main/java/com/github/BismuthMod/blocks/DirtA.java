@@ -8,11 +8,11 @@ import net.minecraftforge.common.ToolType;
 public class DirtA extends Block {
 
     public DirtA() {
-        super(Properties.create(Material.ROCK)
-                .hardnessAndResistance(3.0f, 3.0f)
-                .sound(SoundType.STONE)
-                .harvestLevel(2)
-                .harvestTool(ToolType.PICKAXE));
+        super(Properties.create(Material.EARTH)
+                .hardnessAndResistance(0.5f, 0.5f)
+                .sound(SoundType.GROUND)
+                .harvestLevel(0)
+                .harvestTool(ToolType.SHOVEL));
                 //.setRequiresTool());
     }
 }

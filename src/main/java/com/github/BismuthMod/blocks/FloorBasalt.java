@@ -9,7 +9,7 @@ public class FloorBasalt extends Block {
 
     public FloorBasalt() {
         super(Properties.create(Material.ROCK)
-                .hardnessAndResistance(3.0f, 3.0f)
+                .hardnessAndResistance(3.0f, 6.0f)
                 .sound(SoundType.STONE)
                 .harvestLevel(2)
                 .harvestTool(ToolType.PICKAXE));
