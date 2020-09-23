@@ -22,6 +22,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> FLOOR_BASALT = BLOCKS.register("floor_basalt", FloorBasalt::new);
     public static final RegistryObject<Block> GABBRO = BLOCKS.register("gabbro", Gabbro::new);
     public static final RegistryObject<Block> NORITE = BLOCKS.register("norite", Norite::new);
+    public static final RegistryObject<Block> BEIGE_GRANITE = BLOCKS.register("beige_granite", BeigeGranite::new);
+    public static final RegistryObject<Block> BLACK_GRANITE = BLOCKS.register("black_granite", BlackGranite::new);
+    public static final RegistryObject<Block> RED_GRANITE = BLOCKS.register("red_granite", RedGranite::new);
+    public static final RegistryObject<Block> WHITE_GRANITE = BLOCKS.register("white_granite", WhiteGranite::new);
     public static final RegistryObject<Block> YELLOW_GRANITE = BLOCKS.register("yellow_granite", YellowGranite::new);
     public static final RegistryObject<Block> LIMESTONED = BLOCKS.register("limestoned", LimestoneD::new);
     public static final RegistryObject<Block> LIMESTONEL = BLOCKS.register("limestonel", LimestoneL::new);

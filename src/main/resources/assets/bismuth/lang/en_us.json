@@ -36,6 +36,10 @@
   "block.bismuth.schist": "Schist",
   "block.bismuth.shaleh": "ShaleH",
   "block.bismuth.shalea": "ShaleA",
+  "block.bismuth.beige_granite": "Beige Granite",
+  "block.bismuth.black_granite": "Black Granite",
+  "block.bismuth.red_granite": "Red Granite",
+  "block.bismuth.white_granite": "White Granite",
   "block.bismuth.yellow_granite": "Yellow Granite",
   "block.bismuth.polished_floor_basalt": "Polished Floor Basalt",
   "block.bismuth.polished_orange_granite": "Polished Orange Granite",
@@ -53,5 +57,8 @@
   "block.bismuth.polished_cyan_granite": "Polished Cyan Granite",
   "block.bismuth.polished_magenta_granite": "Polished Magenta Granite",
   "block.bismuth.large_quartz_crystal": "Large Quartz Crystal",
-  "block.bismuth.lunar_regolith": "Lunar Regolith"
+  "block.bismuth.lunar_regolith": "Lunar Regolith",
+
+  "block.minecraft.stone": "Limestone",
+  "block.minecraft.stone_slab": "Limestone Slab"
 }

@@ -37,14 +37,18 @@ public class ModOreGen {
             genStoneVariants(biome, 20, 4, 0, 35, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.NORITE.get().getDefaultState(), 33);
 
             genOre(biome, 15, 24, 5, 69, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.COPPER_ORE.get().getDefaultState(), 10);
-            genOre(biome, 10, 20, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.YELLOW_GRANITE.get().getDefaultState(), 33);
+            genOre(biome, 10, 20, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.BEIGE_GRANITE.get().getDefaultState(), 25);
+            genOre(biome, 8, 20, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.BLACK_GRANITE.get().getDefaultState(), 14);
+            genOre(biome, 9, 20, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.RED_GRANITE.get().getDefaultState(), 16);
+            genOre(biome, 10, 20, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.WHITE_GRANITE.get().getDefaultState(), 25);
+            genOre(biome, 10, 20, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.YELLOW_GRANITE.get().getDefaultState(), 25);
             genOre(biome, 15, 20, 0, 35, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.PLATINUM_ORE.get().getDefaultState(), 10);
             genOre(biome, 12, 60, 0, 63, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.CLAYR.get().getDefaultState(), 12);
             genOre(biome, 15, 0, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.LIMESTONEB.get().getDefaultState(), 50);
             genOre(biome, 15, 0, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.LIMESTONED.get().getDefaultState(), 50);
             genOre(biome, 15, 0, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.LIMESTONEK.get().getDefaultState(), 50);
             genOre(biome, 15, 0, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.LIMESTONEL.get().getDefaultState(), 50);
-            genOre(biome, 15, 0, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.LIMESTONEM.get().getDefaultState(), 50);
+            //genOre(biome, 15, 0, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.LIMESTONEM.get().getDefaultState(), 50);
             //genOre(biome, 15, 0, 0, 80, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.LIMESTONER.get().getDefaultState(), 33);
             genOre(biome, 15, 0, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.LIMESTONET.get().getDefaultState(), 50);
 

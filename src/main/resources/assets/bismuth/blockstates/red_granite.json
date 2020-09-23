@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+        { "model": "bismuth:block/red_granite" },
+        { "model": "bismuth:block/red_granite_mirrored" },
+        { "model": "bismuth:block/red_granite", "y": 180 },
+        { "model": "bismuth:block/red_granite_mirrored", "y": 180 }
+    ]
+  }
+}
