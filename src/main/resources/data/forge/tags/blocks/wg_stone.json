@@ -1,7 +1,7 @@
 {
   "replace": true,
   "values": [
-    "bismuth:yellow_granite",
+    "minecraft:stone",
     "bismuth:limestoneb",
     "bismuth:limestoned",
     "bismuth:limestonek",
