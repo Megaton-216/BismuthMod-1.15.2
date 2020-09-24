@@ -22,8 +22,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> FLOOR_BASALT = BLOCKS.register("floor_basalt", FloorBasalt::new);
     public static final RegistryObject<Block> GABBRO = BLOCKS.register("gabbro", Gabbro::new);
     public static final RegistryObject<Block> NORITE = BLOCKS.register("norite", Norite::new);
-    public static final RegistryObject<Block> BEIGE_GRANITE = BLOCKS.register("beige_granite", BeigeGranite::new);
     public static final RegistryObject<Block> BLACK_GRANITE = BLOCKS.register("black_granite", BlackGranite::new);
+    public static final RegistryObject<Block> BROWN_GRANITE = BLOCKS.register("brown_granite", BrownGranite::new);
     public static final RegistryObject<Block> RED_GRANITE = BLOCKS.register("red_granite", RedGranite::new);
     public static final RegistryObject<Block> WHITE_GRANITE = BLOCKS.register("white_granite", WhiteGranite::new);
     public static final RegistryObject<Block> YELLOW_GRANITE = BLOCKS.register("yellow_granite", YellowGranite::new);
@@ -43,7 +43,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> POLISHED_GREEN_GRANITE = BLOCKS.register("polished_green_granite", PolishedGreenGranite::new);
     public static final RegistryObject<Block> POLISHED_MAGENTA_GRANITE = BLOCKS.register("polished_magenta_granite", PolishedMagentaGranite::new);
     public static final RegistryObject<Block> POLISHED_ORANGE_GRANITE = BLOCKS.register("polished_orange_granite", PolishedOrangeGranite::new);
-    public static final RegistryObject<Block> POLISHED_PINK_GRANITE = BLOCKS.register("polished_pink_granite", PolishedPinkGranite::new);
+    //public static final RegistryObject<Block> POLISHED_PINK_GRANITE = BLOCKS.register("polished_pink_granite", PolishedPinkGranite::new);
     public static final RegistryObject<Block> POLISHED_PURPLE_GRANITE = BLOCKS.register("polished_purple_granite", PolishedPurpleGranite::new);
     public static final RegistryObject<Block> POLISHED_RED_GRANITE = BLOCKS.register("polished_red_granite", PolishedRedGranite::new);
     public static final RegistryObject<Block> POLISHED_WHITE_GRANITE = BLOCKS.register("polished_white_granite", PolishedWhiteGranite::new);

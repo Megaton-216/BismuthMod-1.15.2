@@ -5,9 +5,9 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
-public class BeigeGranite extends Block {
+public class BrownGranite extends Block {
 
-    public BeigeGranite() {
+    public BrownGranite() {
         super(Properties.create(Material.ROCK)
                 .hardnessAndResistance(1.5f, 6.0f)
                 .sound(SoundType.STONE)

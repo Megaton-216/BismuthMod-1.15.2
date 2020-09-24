@@ -32,12 +32,12 @@ public class ModOreGen {
         for (Biome biome : ForgeRegistries.BIOMES) {
             //Overworld Generation
             genStoneVariants(biome, 20, 4, 0, 30, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.GABBRO.get().getDefaultState(), 18);
-            genStoneVariants(biome, 20, 4, 0, 40, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.DUNITE.get().getDefaultState(), 24);
-            genStoneVariants(biome, 16, 30, 0, 40, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.FLOOR_BASALT.get().getDefaultState(), 35);
+            genStoneVariants(biome, 12, 4, 0, 40, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.DUNITE.get().getDefaultState(), 24);
+            genStoneVariants(biome, 16, 32, 0, 38, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.FLOOR_BASALT.get().getDefaultState(), 38);
             genStoneVariants(biome, 20, 4, 0, 35, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.NORITE.get().getDefaultState(), 33);
 
             genOre(biome, 15, 24, 5, 69, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.COPPER_ORE.get().getDefaultState(), 10);
-            genOre(biome, 10, 20, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.BEIGE_GRANITE.get().getDefaultState(), 25);
+            genOre(biome, 10, 20, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.BROWN_GRANITE.get().getDefaultState(), 25);
             genOre(biome, 8, 20, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.BLACK_GRANITE.get().getDefaultState(), 14);
             genOre(biome, 9, 20, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.RED_GRANITE.get().getDefaultState(), 16);
             genOre(biome, 10, 20, 0, 256, OreFeatureConfig.FillerBlockType.NATURAL_STONE, ModBlocks.WHITE_GRANITE.get().getDefaultState(), 25);
@@ -79,5 +79,3 @@ public class ModOreGen {
     }
 
 }
-
-//pic seed:1253429703547409991

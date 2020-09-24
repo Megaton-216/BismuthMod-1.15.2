@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DS"
+  ],
+  "key": {
+    "S": {
+      "item": "bismuth:polished_white_granite"
+    },
+    "D": {
+      "item": "minecraft:gray_dye"
+    }
+  },
+  "result": {
+    "item": "bismuth:polished_gray_granite",
+    "count": 1
+  }
+}

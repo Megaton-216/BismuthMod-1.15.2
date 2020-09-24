@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "bismuth:black_granite"
+  },
+  "result": "bismuth:polished_black_granite",
+  "count": 1
+}
