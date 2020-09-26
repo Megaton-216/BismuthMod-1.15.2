@@ -12,7 +12,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 # The modid of the mod
 modId="bismuth" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
-version="1.0.3" #mandatory
+version="1.0.4" #mandatory
  # A display name for the mod
 displayName="Bismuth" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
@@ -27,10 +27,10 @@ credits="Megaton_216_" #optional
 authors="Megaton_216_" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-A mod that adds stone types for a more realistic/aesthetic experience.
+    A mod that adds stone types for a more realistic/aesthetic experience.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.examplemod]] #optional
+[[dependencies.bismuth]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -42,7 +42,7 @@ A mod that adds stone types for a more realistic/aesthetic experience.
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 # Here's another dependency
-[[dependencies.examplemod]]
+[[dependencies.bismuth]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.15.2]"

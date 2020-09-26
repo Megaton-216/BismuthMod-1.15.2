@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "bismuth:limestonem_bricks"
+  },
+  "result": "bismuth:limestonem_brick_stairs",
+  "count": 1
+}

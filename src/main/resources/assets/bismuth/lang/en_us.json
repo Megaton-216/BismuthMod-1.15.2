@@ -30,6 +30,20 @@
   "block.bismuth.limestonem": "Muav Limestone",
   "block.bismuth.limestoner": "Redwall Limestone",
   "block.bismuth.limestonet": "Toroweap Limestone",
+  "block.bismuth.limestoneb_bricks": "Sienna Limestone Bricks",
+  "block.bismuth.limestoned_bricks": "Brown Limestone Bricks",
+  "block.bismuth.limestonek_bricks": "Kaibab Limestone Bricks",
+  "block.bismuth.limestonel_bricks": "Beige Limestone Bricks",
+  "block.bismuth.limestonem_bricks": "Muav Limestone Bricks",
+  "block.bismuth.limestoner_bricks": "Redwall Limestone Bricks",
+  "block.bismuth.limestonet_bricks": "Toroweap Limestone Bricks",
+  "block.bismuth.limestoneb_brick_stairs": "Sienna Limestone Brick Stairs",
+  "block.bismuth.limestoned_brick_stairs": "Brown Limestone Brick Stairs",
+  "block.bismuth.limestonek_brick_stairs": "Kaibab Limestone Brick Stairs",
+  "block.bismuth.limestonel_brick_stairs": "Beige Limestone Brick Stairs",
+  "block.bismuth.limestonem_brick_stairs": "Muav Limestone Brick Stairs",
+  "block.bismuth.limestoner_brick_stairs": "Redwall Limestone Brick Stairs",
+  "block.bismuth.limestonet_brick_stairs": "Toroweap Limestone Brick Stairs",
   "block.bismuth.norite": "Norite",
   "block.bismuth.platinum_ore": "Platinum Ore",
   "block.bismuth.sandy_dirt": "Sandy Dirt",
@@ -58,5 +72,6 @@
   "block.bismuth.lunar_regolith": "Lunar Regolith",
 
   "block.minecraft.stone": "Limestone",
-  "block.minecraft.stone_slab": "Limestone Slab"
+  "block.minecraft.stone_slab": "Limestone Slab",
+  "block.minecraft.stone_bricks": "Limestone Bricks"
 }

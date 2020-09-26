@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "bismuth:blocks/limestoned_bricks",
+    "top": "bismuth:blocks/limestoned_bricks",
+    "side": "bismuth:blocks/limestoned_bricks"
+  }
+}
