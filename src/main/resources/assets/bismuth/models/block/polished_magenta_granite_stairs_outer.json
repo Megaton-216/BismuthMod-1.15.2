@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "bismuth:blocks/polished_magenta_granite",
+    "top": "bismuth:blocks/polished_magenta_granite",
+    "side": "bismuth:blocks/polished_magenta_granite"
+  }
+}
