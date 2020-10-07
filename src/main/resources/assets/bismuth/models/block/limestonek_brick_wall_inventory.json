@@ -1,0 +1,6 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "bismuth:blocks/limestonek_bricks"
+  }
+}

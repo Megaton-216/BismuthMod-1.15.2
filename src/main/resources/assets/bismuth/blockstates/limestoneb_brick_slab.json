@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "bismuth:block/limestoneb_brick_slab" },
+    "type=top": { "model": "bismuth:block/limestoneb_brick_slab_top" },
+    "type=double": { "model": "bismuth:block/limestoneb_bricks" }
+  }
+}

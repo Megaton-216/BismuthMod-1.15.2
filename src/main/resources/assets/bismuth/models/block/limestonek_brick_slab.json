@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "bismuth:blocks/limestonek_bricks",
+    "top": "bismuth:blocks/limestonek_bricks",
+    "side": "bismuth:blocks/limestonek_bricks"
+  }
+}

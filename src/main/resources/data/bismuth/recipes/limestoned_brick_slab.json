@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "bismuth:limestoned_bricks"
+  },
+  "result": "bismuth:limestoned_brick_slab",
+  "count": 2
+}

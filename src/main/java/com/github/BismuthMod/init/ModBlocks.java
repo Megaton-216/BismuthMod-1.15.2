@@ -2,9 +2,7 @@ package com.github.BismuthMod.init;
 
 import com.github.BismuthMod.Bismuth;
 import com.github.BismuthMod.blocks.*;
-import net.minecraft.block.Block;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.StairsBlock;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
@@ -80,6 +78,34 @@ public class ModBlocks {
                     .sound(SoundType.STONE)
                     .harvestLevel(0)
                     .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> LIMESTONED_BRICK_SLAB = BLOCKS.register("limestoned_brick_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.LIMESTONED_BRICKS.get())));
+    public static final RegistryObject<Block> LIMESTONEL_BRICK_SLAB = BLOCKS.register("limestonel_brick_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.LIMESTONEL_BRICKS.get())));
+    public static final RegistryObject<Block> LIMESTONEB_BRICK_SLAB = BLOCKS.register("limestoneb_brick_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.LIMESTONEB_BRICKS.get())));
+    public static final RegistryObject<Block> LIMESTONEK_BRICK_SLAB = BLOCKS.register("limestonek_brick_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.LIMESTONEK_BRICKS.get())));
+    public static final RegistryObject<Block> LIMESTONEM_BRICK_SLAB = BLOCKS.register("limestonem_brick_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.LIMESTONEM_BRICKS.get())));
+    public static final RegistryObject<Block> LIMESTONER_BRICK_SLAB = BLOCKS.register("limestoner_brick_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.LIMESTONER_BRICKS.get())));
+    public static final RegistryObject<Block> LIMESTONET_BRICK_SLAB = BLOCKS.register("limestonet_brick_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.LIMESTONET_BRICKS.get())));
+    public static final RegistryObject<WallBlock> LIMESTONED_BRICK_WALL = BLOCKS.register("limestoned_brick_wall",
+            () -> new WallBlock(Block.Properties.from(Blocks.BRICK_WALL)));
+    public static final RegistryObject<WallBlock> LIMESTONEL_BRICK_WALL = BLOCKS.register("limestonel_brick_wall",
+            () -> new WallBlock(Block.Properties.from(Blocks.BRICK_WALL)));
+    public static final RegistryObject<WallBlock> LIMESTONEB_BRICK_WALL = BLOCKS.register("limestoneb_brick_wall",
+            () -> new WallBlock(Block.Properties.from(Blocks.BRICK_WALL)));
+    public static final RegistryObject<WallBlock> LIMESTONEK_BRICK_WALL = BLOCKS.register("limestonek_brick_wall",
+            () -> new WallBlock(Block.Properties.from(Blocks.BRICK_WALL)));
+    public static final RegistryObject<WallBlock> LIMESTONEM_BRICK_WALL = BLOCKS.register("limestonem_brick_wall",
+            () -> new WallBlock(Block.Properties.from(Blocks.BRICK_WALL)));
+    public static final RegistryObject<WallBlock> LIMESTONER_BRICK_WALL = BLOCKS.register("limestoner_brick_wall",
+            () -> new WallBlock(Block.Properties.from(Blocks.BRICK_WALL)));
+    public static final RegistryObject<WallBlock> LIMESTONET_BRICK_WALL = BLOCKS.register("limestonet_brick_wall",
+            () -> new WallBlock(Block.Properties.from(Blocks.BRICK_WALL)));
     public static final RegistryObject<Block> POLISHED_FLOOR_BASALT = BLOCKS.register("polished_floor_basalt", PolishedFloorBasalt::new);
     public static final RegistryObject<Block> POLISHED_BLACK_GRANITE = BLOCKS.register("polished_black_granite", PolishedBlackGranite::new);
     public static final RegistryObject<Block> POLISHED_BLUE_GRANITE = BLOCKS.register("polished_blue_granite", PolishedBlueGranite::new);
