@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "bismuth:blocks/polished_brown_granite",
+    "top": "bismuth:blocks/polished_brown_granite",
+    "side": "bismuth:blocks/polished_brown_granite_slab_side"
+  }
+}

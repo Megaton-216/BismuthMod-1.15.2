@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "bismuth:block/polished_brown_granite_slab" },
+    "type=top": { "model": "bismuth:block/polished_brown_granite_slab_top" },
+    "type=double": { "model": "bismuth:block/polished_brown_granite_slab_double" }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "bismuth:blocks/polished_red_granite",
+    "side": "bismuth:blocks/polished_red_granite_slab_side"
+  }
+}

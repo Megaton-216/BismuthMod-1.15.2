@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "bismuth:polished_floor_basalt"
+  },
+  "result": "bismuth:polished_floor_basalt_slab",
+  "count": 2
+}

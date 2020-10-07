@@ -184,6 +184,32 @@ public class ModBlocks {
                     .sound(SoundType.STONE)
                     .harvestLevel(0)
                     .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> POLISHED_FLOOR_BASALT_SLAB = BLOCKS.register("polished_floor_basalt_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.POLISHED_FLOOR_BASALT.get())));
+    public static final RegistryObject<Block> POLISHED_BLACK_GRANITE_SLAB = BLOCKS.register("polished_black_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.POLISHED_BLACK_GRANITE.get())));
+    public static final RegistryObject<Block> POLISHED_BLUE_GRANITE_SLAB = BLOCKS.register("polished_blue_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.POLISHED_BLUE_GRANITE.get())));
+    public static final RegistryObject<Block> POLISHED_BROWN_GRANITE_SLAB = BLOCKS.register("polished_brown_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.POLISHED_BROWN_GRANITE.get())));
+    public static final RegistryObject<Block> POLISHED_CYAN_GRANITE_SLAB = BLOCKS.register("polished_cyan_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.POLISHED_CYAN_GRANITE.get())));
+    public static final RegistryObject<Block> POLISHED_GRAY_GRANITE_SLAB = BLOCKS.register("polished_gray_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.POLISHED_GRAY_GRANITE.get())));
+    public static final RegistryObject<Block> POLISHED_GREEN_GRANITE_SLAB = BLOCKS.register("polished_green_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.POLISHED_GREEN_GRANITE.get())));
+    public static final RegistryObject<Block> POLISHED_MAGENTA_GRANITE_SLAB = BLOCKS.register("polished_magenta_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.POLISHED_MAGENTA_GRANITE.get())));
+    public static final RegistryObject<Block> POLISHED_ORANGE_GRANITE_SLAB = BLOCKS.register("polished_orange_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.POLISHED_ORANGE_GRANITE.get())));
+    public static final RegistryObject<Block> POLISHED_PURPLE_GRANITE_SLAB = BLOCKS.register("polished_purple_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.POLISHED_PURPLE_GRANITE.get())));
+    public static final RegistryObject<Block> POLISHED_RED_GRANITE_SLAB = BLOCKS.register("polished_red_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.POLISHED_RED_GRANITE.get())));
+    public static final RegistryObject<Block> POLISHED_WHITE_GRANITE_SLAB = BLOCKS.register("polished_white_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.POLISHED_WHITE_GRANITE.get())));
+    public static final RegistryObject<Block> POLISHED_YELLOW_GRANITE_SLAB = BLOCKS.register("polished_yellow_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.POLISHED_YELLOW_GRANITE.get())));
     public static final RegistryObject<Block> CLAYR = BLOCKS.register("clayr", ClayR::new);
     public static final RegistryObject<Block> DIRTA = BLOCKS.register("dirta", DirtA::new);
     public static final RegistryObject<Block> DIRTU = BLOCKS.register("dirtu", DirtU::new);
