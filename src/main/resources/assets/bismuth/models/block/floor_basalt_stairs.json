@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "bismuth:blocks/floor_basalt",
+    "top": "bismuth:blocks/floor_basalt",
+    "side": "bismuth:blocks/floor_basalt"
+  }
+}

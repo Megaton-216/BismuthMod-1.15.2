@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "bismuth:block/limestoner_slab" },
+    "type=top": { "model": "bismuth:block/limestoner_slab_top" },
+    "type=double": { "model": "bismuth:block/limestoner" }
+  }
+}

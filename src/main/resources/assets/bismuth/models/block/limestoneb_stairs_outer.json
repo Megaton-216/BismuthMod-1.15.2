@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "bismuth:blocks/limestoneb",
+    "top": "bismuth:blocks/limestoneb",
+    "side": "bismuth:blocks/limestoneb"
+  }
+}

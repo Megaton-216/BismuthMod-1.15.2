@@ -29,6 +29,48 @@ public class ModBlocks {
     public static final RegistryObject<Block> RED_GRANITE = BLOCKS.register("red_granite", RedGranite::new);
     public static final RegistryObject<Block> WHITE_GRANITE = BLOCKS.register("white_granite", WhiteGranite::new);
     public static final RegistryObject<Block> YELLOW_GRANITE = BLOCKS.register("yellow_granite", YellowGranite::new);
+    public static final RegistryObject<Block> FLOOR_BASALT_STAIRS = BLOCKS.register("floor_basalt_stairs",
+            () -> new StairsBlock(() -> ModBlocks.FLOOR_BASALT.get().getDefaultState(), Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 6.0f)
+                    .sound(SoundType.STONE)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> BLACK_GRANITE_STAIRS = BLOCKS.register("black_granite_stairs",
+            () -> new StairsBlock(() -> ModBlocks.BLACK_GRANITE.get().getDefaultState(), Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 6.0f)
+                    .sound(SoundType.STONE)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> BROWN_GRANITE_STAIRS = BLOCKS.register("brown_granite_stairs",
+            () -> new StairsBlock(() -> ModBlocks.BROWN_GRANITE.get().getDefaultState(), Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 6.0f)
+                    .sound(SoundType.STONE)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> RED_GRANITE_STAIRS = BLOCKS.register("red_granite_stairs",
+            () -> new StairsBlock(() -> ModBlocks.RED_GRANITE.get().getDefaultState(), Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 6.0f)
+                    .sound(SoundType.STONE)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> WHITE_GRANITE_STAIRS = BLOCKS.register("white_granite_stairs",
+            () -> new StairsBlock(() -> ModBlocks.WHITE_GRANITE.get().getDefaultState(), Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 6.0f)
+                    .sound(SoundType.STONE)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> YELLOW_GRANITE_STAIRS = BLOCKS.register("yellow_granite_stairs",
+            () -> new StairsBlock(() -> ModBlocks.YELLOW_GRANITE.get().getDefaultState(), Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 6.0f)
+                    .sound(SoundType.STONE)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> FLOOR_BASALT_SLAB = BLOCKS.register("floor_basalt_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.FLOOR_BASALT.get())));
+    public static final RegistryObject<Block> BLACK_GRANITE_SLAB = BLOCKS.register("black_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.BLACK_GRANITE.get())));
+    public static final RegistryObject<Block> BROWN_GRANITE_SLAB = BLOCKS.register("brown_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.BROWN_GRANITE.get())));
+    public static final RegistryObject<Block> RED_GRANITE_SLAB = BLOCKS.register("red_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.RED_GRANITE.get())));
+    public static final RegistryObject<Block> WHITE_GRANITE_SLAB = BLOCKS.register("white_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.WHITE_GRANITE.get())));
+    public static final RegistryObject<Block> YELLOW_GRANITE_SLAB = BLOCKS.register("yellow_granite_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.YELLOW_GRANITE.get())));
     public static final RegistryObject<Block> LIMESTONED = BLOCKS.register("limestoned", LimestoneD::new);
     public static final RegistryObject<Block> LIMESTONEL = BLOCKS.register("limestonel", LimestoneL::new);
     public static final RegistryObject<Block> LIMESTONEB = BLOCKS.register("limestoneb", LimestoneB::new);
@@ -36,13 +78,76 @@ public class ModBlocks {
     public static final RegistryObject<Block> LIMESTONEM = BLOCKS.register("limestonem", LimestoneM::new);
     public static final RegistryObject<Block> LIMESTONER = BLOCKS.register("limestoner", LimestoneR::new);
     public static final RegistryObject<Block> LIMESTONET = BLOCKS.register("limestonet", LimestoneT::new);
+    public static final RegistryObject<Block> LIMESTONED_STAIRS = BLOCKS.register("limestoned_stairs",
+            () -> new StairsBlock(() -> ModBlocks.LIMESTONED.get().getDefaultState(), Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 6.0f)
+                    .sound(SoundType.STONE)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> LIMESTONEL_STAIRS = BLOCKS.register("limestonel_stairs",
+            () -> new StairsBlock(() -> ModBlocks.LIMESTONEL.get().getDefaultState(), Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 6.0f)
+                    .sound(SoundType.STONE)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> LIMESTONEB_STAIRS = BLOCKS.register("limestoneb_stairs",
+            () -> new StairsBlock(() -> ModBlocks.LIMESTONEB.get().getDefaultState(), Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 6.0f)
+                    .sound(SoundType.STONE)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> LIMESTONEK_STAIRS = BLOCKS.register("limestonek_stairs",
+            () -> new StairsBlock(() -> ModBlocks.LIMESTONEK.get().getDefaultState(), Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 6.0f)
+                    .sound(SoundType.STONE)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> LIMESTONEM_STAIRS = BLOCKS.register("limestonem_stairs",
+            () -> new StairsBlock(() -> ModBlocks.LIMESTONEM.get().getDefaultState(), Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 6.0f)
+                    .sound(SoundType.STONE)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> LIMESTONER_STAIRS = BLOCKS.register("limestoner_stairs",
+            () -> new StairsBlock(() -> ModBlocks.LIMESTONER.get().getDefaultState(), Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 6.0f)
+                    .sound(SoundType.STONE)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> LIMESTONET_STAIRS = BLOCKS.register("limestonet_stairs",
+            () -> new StairsBlock(() -> ModBlocks.LIMESTONET.get().getDefaultState(), Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 6.0f)
+                    .sound(SoundType.STONE)
+                    .harvestLevel(0)
+                    .harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject<Block> LIMESTONED_SLAB = BLOCKS.register("limestoned_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.LIMESTONED.get())));
+    public static final RegistryObject<Block> LIMESTONEL_SLAB = BLOCKS.register("limestonel_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.LIMESTONEL.get())));
+    public static final RegistryObject<Block> LIMESTONEB_SLAB = BLOCKS.register("limestoneb_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.LIMESTONEB.get())));
+    public static final RegistryObject<Block> LIMESTONEK_SLAB = BLOCKS.register("limestonek_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.LIMESTONEK.get())));
+    public static final RegistryObject<Block> LIMESTONEM_SLAB = BLOCKS.register("limestonem_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.LIMESTONEM.get())));
+    public static final RegistryObject<Block> LIMESTONER_SLAB = BLOCKS.register("limestoner_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.LIMESTONER.get())));
+    public static final RegistryObject<Block> LIMESTONET_SLAB = BLOCKS.register("limestonet_slab",
+            () -> new SlabBlock(Block.Properties.from(ModBlocks.LIMESTONET.get())));
     public static final RegistryObject<Block> LIMESTONED_BRICKS = BLOCKS.register("limestoned_bricks", LimestoneDBricks::new);
+    public static final RegistryObject<Block> CRACKED_LIMESTONED_BRICKS = BLOCKS.register("cracked_limestoned_bricks", LimestoneDBricks::new);
+    public static final RegistryObject<Block> MOSSY_LIMESTONED_BRICKS = BLOCKS.register("mossy_limestoned_bricks", LimestoneDBricks::new);
     public static final RegistryObject<Block> LIMESTONEL_BRICKS = BLOCKS.register("limestonel_bricks", LimestoneLBricks::new);
+    public static final RegistryObject<Block> CRACKED_LIMESTONEL_BRICKS = BLOCKS.register("cracked_limestonel_bricks", LimestoneLBricks::new);
+    public static final RegistryObject<Block> MOSSY_LIMESTONEL_BRICKS = BLOCKS.register("mossy_limestonel_bricks", LimestoneLBricks::new);
     public static final RegistryObject<Block> LIMESTONEB_BRICKS = BLOCKS.register("limestoneb_bricks", LimestoneBBricks::new);
+    public static final RegistryObject<Block> CRACKED_LIMESTONEB_BRICKS = BLOCKS.register("cracked_limestoneb_bricks", LimestoneBBricks::new);
+    public static final RegistryObject<Block> MOSSY_LIMESTONEB_BRICKS = BLOCKS.register("mossy_limestoneb_bricks", LimestoneBBricks::new);
     public static final RegistryObject<Block> LIMESTONEK_BRICKS = BLOCKS.register("limestonek_bricks", LimestoneKBricks::new);
+    public static final RegistryObject<Block> CRACKED_LIMESTONEK_BRICKS = BLOCKS.register("cracked_limestonek_bricks", LimestoneKBricks::new);
+    public static final RegistryObject<Block> MOSSY_LIMESTONEK_BRICKS = BLOCKS.register("mossy_limestonek_bricks", LimestoneKBricks::new);
     public static final RegistryObject<Block> LIMESTONEM_BRICKS = BLOCKS.register("limestonem_bricks", LimestoneMBricks::new);
+    public static final RegistryObject<Block> CRACKED_LIMESTONEM_BRICKS = BLOCKS.register("cracked_limestonem_bricks", LimestoneMBricks::new);
+    public static final RegistryObject<Block> MOSSY_LIMESTONEM_BRICKS = BLOCKS.register("mossy_limestonem_bricks", LimestoneMBricks::new);
     public static final RegistryObject<Block> LIMESTONER_BRICKS = BLOCKS.register("limestoner_bricks", LimestoneRBricks::new);
+    public static final RegistryObject<Block> CRACKED_LIMESTONER_BRICKS = BLOCKS.register("cracked_limestoner_bricks", LimestoneRBricks::new);
+    public static final RegistryObject<Block> MOSSY_LIMESTONER_BRICKS = BLOCKS.register("mossy_limestoner_bricks", LimestoneRBricks::new);
     public static final RegistryObject<Block> LIMESTONET_BRICKS = BLOCKS.register("limestonet_bricks", LimestoneTBricks::new);
+    public static final RegistryObject<Block> CRACKED_LIMESTONET_BRICKS = BLOCKS.register("cracked_limestonet_bricks", LimestoneTBricks::new);
+    public static final RegistryObject<Block> MOSSY_LIMESTONET_BRICKS = BLOCKS.register("mossy_limestonet_bricks", LimestoneTBricks::new);
     public static final RegistryObject<Block> LIMESTONED_BRICK_STAIRS = BLOCKS.register("limestoned_brick_stairs",
             () -> new StairsBlock(() -> ModBlocks.LIMESTONED_BRICKS.get().getDefaultState(), Block.Properties.create(Material.ROCK).hardnessAndResistance(1.5f, 6.0f)
                     .sound(SoundType.STONE)

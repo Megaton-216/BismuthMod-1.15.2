@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "bismuth:blocks/yellow_granite",
+    "top": "bismuth:blocks/yellow_granite",
+    "side": "bismuth:blocks/yellow_granite"
+  }
+}

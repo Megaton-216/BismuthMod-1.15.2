@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "bismuth:blocks/brown_granite",
+    "top": "bismuth:blocks/brown_granite",
+    "side": "bismuth:blocks/brown_granite"
+  }
+}
